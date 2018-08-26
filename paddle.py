@@ -2,7 +2,7 @@ import os, sys, random, pygame
 from pygame.locals import *
 
 class Paddle(pygame.sprite.Sprite):
-	def __init__(self, posX, posY):
+    def __init__(self, posX, posY):
         pygame.sprite.Sprite.__init__(self)
         self.width = 20
         self.height = 100
